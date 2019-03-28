@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+
+body {
+  color: #8258C4;
+  margin: 0;
+  font-family: 'Pacifico', san-serif;
+}
+/* Start of header style */
+#header {
+  background-color: #D9C0FF;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: #f5f5f5;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #A078CE;
+}
+#header .active{
+   color: #593674;
+}
+#header-title {
+  display: block;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top:0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+/* End of header*/
+/*Start of the content style*/
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  color: #A078CE;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F5F5F5;
+}
+
+
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.about {
+  text-align: left;
+}
+
+.post-author img, .about-author img {
+  width: 50%;
+  height: 25%;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date{
+  color: #A078CE;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.post-container:nth-child(even) {
+  background-color: #D9C0FF;
+}
+.job-author{
+  width: 50%;
+  height: 25%;
+  vertical-align: middle;
+  border-radius: 20%;
+  padding-right: 10px;
+}
+.job-column {
+  max-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+  margin: auto 0;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+  color: #593674;
+}
+
+p {
+  line-height: 1.5;
+    font-family: 'Lobster+Two', sans-serif;
+}
+/*End of the content style*/
+/*Start of footer style*/
+#footer {
+  background-color: #593674;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: #D9C0FF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+/*End of footer style*/
