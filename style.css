@@ -71,7 +71,7 @@ a:hover {
   background-color:white;
 }
 
-.post, .about:nth-child(even) {
+.post:nth-child(even) {
   background-color: #D9C0FF;
 }
 
