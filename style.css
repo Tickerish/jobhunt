@@ -68,8 +68,11 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 0;
-  border-left: #D9C0FF 20em solid;
-  border-right: #D9C0FF 20em solid;
+  background-color:white;
+}
+
+.post:nth-child(even) {
+  background-color: #D9C0FF;
 }
 
 .about {
@@ -87,6 +90,9 @@ a:hover {
 .post-author span {
   margin-left: 16px;
 }
+#content{
+  background-color:blueviolet;
+}
 
 .post-date{
   color: #A078CE;
@@ -98,9 +104,6 @@ a:hover {
   letter-spacing: 0.1em;
 }
 
-.post-container:nth-child(even) {
-  background-color: #D9C0FF;
-}
 .job-author{
   width: 50%;
   height: 25%;
