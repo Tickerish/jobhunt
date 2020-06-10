@@ -71,11 +71,7 @@ a:hover {
   background-color:white;
 }
 
-.post-container:nth-child(odd){
-  background-color:white; 
-}
-
-.post-container:nth-child(even) {
+.post:nth-child(even) {
   background-color: #D9C0FF;
 }
 
