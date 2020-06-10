@@ -68,6 +68,8 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 0;
+  border-left: #8258C4 20em solid;
+  border-right: #8258C4 20em solid;
 }
 
 .about {
