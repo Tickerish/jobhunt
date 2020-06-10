@@ -71,7 +71,7 @@ a:hover {
   background-color:white;
 }
 
-.post-conainer:nth-child(odd){
+.post-container:nth-child(odd){
   background-color:white; 
 }
 
