@@ -75,10 +75,11 @@ a:hover {
 }
 
 .post-author img, .about-author img {
-  width: 50%;
-  height: 25%;
-  vertical-align: middle;
-  border-radius: 50%;
+    margin-left: 32%;
+    width: 35%;
+    height: 10%;
+    vertical-align: middle;
+    border-radius: 50%;
 }
 
 .post-author span {
