@@ -68,9 +68,10 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 0;
-  background-color:white;
 }
-
+.post:nth-child(odd) {
+  background-color: white;
+}
 .post:nth-child(even) {
   background-color: #D9C0FF;
 }
